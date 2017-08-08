@@ -47,7 +47,6 @@
 # second number: database changes
 # third number: code changes/patches
 
-from __future__ import print_function
 from subprocess import Popen, PIPE
 
 __all__ = ("get_git_version")
@@ -152,4 +151,4 @@ def get_git_hash():
     return sha
 
 if __name__ == "__main__":
-    print(get_git_version())
+    print get_git_version()
