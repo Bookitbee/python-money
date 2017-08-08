@@ -12,7 +12,7 @@ except ImportError:
 
 from setuptools.command.test import test as TestCommand
 
-from .version import get_git_version, get_git_hash
+from version import get_git_version, get_git_hash
 
 
 loc = os.path.abspath(os.path.dirname(__file__))
